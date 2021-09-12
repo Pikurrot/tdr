@@ -1,6 +1,6 @@
 # TDR
 ## English
-This repository contains the 5 programs of my TDR. They are public, anyone can copy them and use them.
+This repository contains the 5 programs of my Research Work. They are public, anyone can copy them and use them.
 These programs are in Python and use the Machine Learning technique to do the following tasks:
 - 1_Neuron_perceptron.py (Program 1): Learning the truth table of the AND logic gate.
 - Multineuronal_ANNN.py (Program 2): Learning the truth table of the XOR logic gate.
@@ -8,7 +8,7 @@ These programs are in Python and use the Machine Learning technique to do the fo
 - Handwriting_recog2.py (Program 3.2): Testing of Program 3.1, where you can draw handwritten numbers.
 - Tesseract_OCR.py (Program 4): Training and testing of a model that recognizes and encodes the text of a digital image.
 ## Català
-Aquest repository conté els 5 programes del meu TDR. Són públics, qualsevol els pot copiar i utilitzar.
+Aquest repository conté els 5 programes del meu Treball de Recerca. Són públics, qualsevol els pot copiar i utilitzar.
 Aquests programes estan en Python i utilitzen la tècnica del Machine Learning per fer les següents tasques:
 - 1_Neuron_perceptron.py (Programa 1): Aprenentatge de la taula de la veritat de la porta lògica AND.
 - Multineuronal_ANN.py (Programa 2): Aprenentatge de la taula de la veritat de la porta lògica XOR.
