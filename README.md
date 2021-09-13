@@ -8,7 +8,7 @@ These programs are in Python and use the Machine Learning technique to do the fo
 - [Handwriting_recog2.py](https://github.com/Pikurrot/TDR/blob/main/Handwriting_recog2.py) (Program 3.2): Testing of Program 3.1, where you can draw handwritten numbers.
 - [Tesseract_OCR.py](https://github.com/Pikurrot/TDR/blob/main/Tesseract_OCR.py) (Program 4): Testing of a model that recognizes and encodes the text of a digital image.
 ## Català
-Aquest repository conté els 5 programes del meu Treball de Recerca. Són públics, qualsevol els pot copiar i utilitzar.
+Aquest repositori conté els 5 programes del meu Treball de Recerca. Són públics, qualsevol els pot copiar i utilitzar.
 Aquests programes estan en Python i utilitzen la tècnica del Machine Learning per fer les següents tasques:
 - [1_Neuron_perceptron.py](https://github.com/Pikurrot/TDR/blob/main/1_neuron_Perceptron.py) (Programa 1): Aprenentatge de la taula de la veritat de la porta lògica AND.
 - [Multineuronal_ANNN.py](https://github.com/Pikurrot/TDR/blob/main/Multineuronal_ANN.py) (Programa 2): Aprenentatge de la taula de la veritat de la porta lògica XOR.
