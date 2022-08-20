@@ -12,13 +12,13 @@ import matplotlib.pyplot as plt
 import math
 
 #Carrego el model "HW_trained_model.py"
-fitxer_json = open('model.json', 'r')
+fitxer_json = open('data/HW_model.json', 'r')
 lectura_fitxer_json = fitxer_json.read()
 fitxer_json.close()
 model_entrenat = model_from_json(lectura_fitxer_json)
 
 #Carrego els weights
-model_entrenat.load_weights("model.h5")
+model_entrenat.load_weights("data/HW_model.h5")
 print("El model s'ha carregat correctament\n")
 
 print(model_entrenat.summary())
