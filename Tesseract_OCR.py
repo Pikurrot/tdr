@@ -3,7 +3,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = \
     "C:/Program Files (x86)/Tesseract-OCR/tesseract.exe"
 
-imatge = cv2.imread("data/OCR_text2.png")
+imatge = cv2.imread("data/OCR_test.png")
 alçada,amplada,_ = imatge.shape
 r = min(800/alçada,1)
 imatge = cv2.resize(imatge, (round(amplada * r), round(alçada * r)))
