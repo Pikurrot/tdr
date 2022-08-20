@@ -22,17 +22,17 @@ model.compile(optimizer="adam",
 model.fit(inputs_entrenament, outputs_entrenament, epochs=3)
 
 model_json = model.to_json()
-with open("model.json", "w") as fitxer_json:
+with open("data/HW_model.json", "w") as fitxer_json:
     fitxer_json.write(model_json)
-model.save_weights("model.h5")
+model.save_weights("data/HW_model.h5")
 print("Model guardat")
 
 pesos = []
 bias = []
-for i in range(len(model_entrenat.layers)):
+for i in range(len(model.layers)):
     try:
-        p = model_entrenat.layers[i].get_weights()[0]
-        b = model_entrenat.layers[i].get_weights()[1]
+        p = model.layers[i].get_weights()[0]
+        b = model.layers[i].get_weights()[1]
         pesos.append(p)
         bias.append(b)
     except:
